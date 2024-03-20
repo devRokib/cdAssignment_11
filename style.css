@@ -1,0 +1,705 @@
+/* default Css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    text-transform: capitalize;
+
+}
+img{
+    max-width: 100%;
+}
+.container{
+    max-width: 1024px;
+    margin: auto;
+    
+}
+body {
+    font-family: "Basic", sans-serif;
+    
+    font-style: normal;
+  }
+  
+ 
+/* header section */
+header {
+	padding: 4px 0;
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo h2 {
+    font-size: 32px;
+}
+.logo h2 a{
+    color: #222222;
+    
+}
+
+nav .navmenu {
+    display: flex;
+    list-style: none;
+    gap: 26px;
+    align-items: center;
+}
+
+nav .navmenu li a {
+    color: #222222;
+    font-size: 18px;
+    transition: all .3s;
+    
+}
+.menuItem:hover{
+    color: #6d7d8d;
+}
+.headerBtn {
+    background: #8364e2;
+    color: #fff !important;
+    padding: 8px 28px;
+    font-size: 19px !important;
+    border-radius: 28px;
+    transition: all .3s;
+}
+.headerBtn:hover{
+    box-shadow: 1px 2px 10px 5px #8364e2;
+    
+}
+.navmenu li{
+    margin: 0 8px;
+}
+.mobileMenu{
+    display: none;
+}
+
+/* banner section  */
+.bannerSection{
+    background: rgba(0, 0, 0, .8);
+    padding: 70px 0;
+}
+.bannerContent {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: #fff;
+    justify-content: space-between;
+}
+
+.bannerLeft h3 {
+    font-size: 18px;
+}
+.bannerLeft h1 {
+    font-size: 60px;
+    line-height: 69px;
+    margin: 30px 0;
+}
+.bannerLeft p {
+    font-size: 17px;
+    max-width: 80%;
+    line-height: 25px;
+    margin-bottom: 26px;
+}
+
+.bannerRight {
+	text-align: end;
+}
+.bannerRight img {
+    width: 90%;
+    border-radius: 35px;
+}
+
+/* features section  */
+
+.featuresSection{
+    padding: 60px 0;
+}
+.featuresSection h1 {
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 47px;
+}
+.featuresContent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+.featuresItem {
+    padding: 52px 19px;
+    margin: 10px;
+    
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    transition: all .3s;
+}
+.featuresItem:hover{
+    background: #f3f3f3;
+}
+.featuresItem span {
+    color: #8364e2;
+    display: inline-block;
+    font-size: 25px;
+}
+.featuresItem h3 {
+    font-size: 20px;
+    margin: 12px 0px;
+}
+.featuresItem p {
+    color: #767676;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+/* about section */
+
+.aboutSection{
+    padding: 60px 0;
+    background: #f2f2f2;
+}
+.aboutSection h1{
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 47px;
+}
+.aboutContent{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.aboutMenu{
+    width: 20%;
+}
+.aboutMenu ul{
+    list-style: none;
+}
+.aboutMenu ul li a {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 32px;
+    margin: 2px 0;
+    padding: 6px 15px;
+    border-radius: 20px;
+    transition: all .3s;
+    color: #222;
+}
+.aboutMenu ul li a:hover{
+    background: #8364e2;
+    color: #fff;
+}
+.aboutDetails{
+    width: 80%;
+}
+.aboutDetails p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    color: #797979;
+}
+
+
+/* trader section  */
+
+
+.traderSection{
+    padding: 60px 0;
+    text-align: center;
+}
+.traderSection h1{
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 47px;
+}
+.traderContent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.traderMember {
+    border-radius: 30px;
+    box-shadow: 1px 2px 1px 1px rgba(0,0,0, .1);
+    padding: 10px 0;
+}
+.traderMember img {
+    border-radius: 30px 30px 0 0;
+}
+.traderMember h3 {
+    font-size: 20px;
+}
+.traderMember h4 {
+    font-size: 18px;
+    margin: 10px;
+}
+.traderMember p {
+    color: #797979;
+    margin-bottom: 13px;
+}
+.traderMember .socialIcon {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.traderMember .socialIcon span {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background: #403f83;
+    color: #fff;
+    font-size: 20px;
+    line-height: 35px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    transition: all .3s;
+}
+.traderMember .socialIcon span:hover{
+    border: 1px solid #403f83;
+    background: #fff;
+    color: #403f83;
+}
+.traderMember .socialIcon span i{
+
+}
+
+/* client section  */
+.ClientSection{
+    padding: 60px 0;
+    background: #f2f2f2;
+}
+.ClientSection h1{
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 42px;
+}
+.ClientContent{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.ClientItem {
+    border: 1px solid #ddd;
+    margin: 5px;
+    padding: 25px;
+    background: #f2effc;
+    border-radius: 12px;
+    transition: all .3s;
+}
+.ClientItem:hover{
+    background: #fff;
+}
+
+
+/* contact section  */
+.ContactSection{
+    padding: 60px 0;
+}
+.ContactContent{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.contactLeft{
+   
+}
+.contactLeft h1 {
+    font-size: 44px;
+}
+.contactLeft p {
+    margin-top: 13px;
+    width: 80%;
+    font-size: 18px;
+    color: #797979;
+}
+.contactRight {
+    background: #f2f2f2;
+    padding: 83px 40px;
+}
+.contactRight {
+    background: #f2f2f2;
+    padding: 83px 40px;
+}
+.contactRight p {
+    margin: 20px 0;
+    color: #676767;
+    font-size: 18px;
+    line-height: 25px;
+}
+.contactRight form{}
+
+input#name {
+    height: 40px;
+    width: 300px;
+    padding: 11px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+input#email {
+    height: 40px;
+    width: 300px;
+    padding: 11px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+textarea#messageBox{
+    height: 85px;
+    width: 300px;
+    padding: 11px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+.SubmitBtn{
+    background: #8364e2;
+    color: #fff !important;
+    padding: 8px 28px;
+    font-size: 19px !important;
+    border-radius: 28px;
+    transition: all .3s;
+    border: none;
+}
+.SubmitBtn:hover{
+    box-shadow: 1px 1px 1px 1px #8364e2;
+}
+
+footer p{
+    text-align: center;
+    padding: 7px;
+}
+/* responsive  */
+
+
+@media (max-width:1150px){
+    .headerContent{
+        padding: 0 50px;
+    }
+   
+}
+@media (max-width:1050px){
+    .bannerContent{
+        padding: 0 50px;
+    }
+    .bannerLeft p {
+       
+        max-width: 90%;
+        
+    }
+    .bannerLeft h1 {
+        font-size: 55px;
+        line-height: 62px;
+        margin: 23px 0;
+    }
+    .ClientContent {
+  
+        padding: 10px 0;
+    }
+}
+@media (max-width:1024px){
+    .traderContent {
+       
+        padding: 0 20px;
+    }
+    .ContactContent {
+       
+        padding: 0 20px;
+    }
+}
+@media (max-width:992px){
+    .bannerContent{
+        padding: 0 30px;
+    }
+    .headerContent{
+        padding: 0 50px;
+    }
+    .featuresContent {
+        
+        grid-template-columns: repeat(3,1fr);
+        padding: 0 15px;
+    }
+    .aboutContent {
+        
+        padding: 0 20px;
+    }
+    .ClientContent {
+  
+        padding: 10px 0;
+    }
+}
+@media (max-width:890){
+    .bannerLeft h1 {
+        font-size: 49px;
+        line-height: 52px;
+        margin: 14px 0;
+    }
+    .bannerLeft p {
+       
+        max-width: 100%;
+        
+    }
+}
+@media (max-width:860px){
+    .navmenu li {
+        margin: 0 0px;
+    }
+    .logo h2 {
+        font-size: 28px;
+    }
+    .traderContent {
+        
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
+    .ClientContent {
+        
+        grid-template-columns: repeat(3,1fr);
+        gap: 35px;
+        padding: 20px;
+    }
+    .ClientItem {
+       
+        margin: 20px;
+       
+    }
+}
+@media (max-width:800){
+    .logo h2 {
+        font-size: 23px;
+    }
+    .navmenu li {
+        margin: 0 2px;
+    }
+    .bannerLeft h1 {
+        font-size: 43px;
+        line-height: 49px;
+        margin: 13px 0;
+    }
+    .bannerLeft h3 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:767px){
+    header{
+        position: relative;
+    }
+    .headerContent{
+        padding: 0 30px;
+    }
+    nav{
+        height: 0;
+        position: absolute;
+        top: 55px;
+        left: 0;
+        right: 0;
+        background:#354350;
+        /* overflow: hidden; */
+        width: 100vw;
+        opacity: 0;
+        display: none;
+        transition: all .5s;
+    }
+    nav.active {
+        height: 300px;
+        opacity: 1;
+        display: block;
+    }
+    
+    .navmenu{
+        display: block;
+        text-align: center;
+    }
+    .mobileMenu {
+        display: block;
+        position: absolute;
+        top: 11px;
+        right: 20px;
+        font-size: 25px;
+    }
+    nav .navmenu li {
+        margin: 13px 0;
+    }
+    nav .navmenu {
+        
+        display: block;
+    }
+    nav .navmenu li a{
+        color: #fff;
+    }
+    nav .navmenu li {
+        margin: 25px 0;
+    }
+    .bannerContent{
+        display: block;
+        text-align: center;
+    }
+    .bannerSection {
+        
+        padding: 42px 0;
+    }
+    .bannerLeft h3 {
+        font-size: 16px;
+    }
+    .bannerLeft h1 {
+        font-size: 30px;
+        line-height: 13px;
+        margin: 23px 0;
+    }
+    .bannerLeft p {
+        font-size: 17px;
+       
+        line-height: 25px;
+        
+        width: 80%;
+        margin: 20px auto;
+    }
+    .bannerRight img {
+       
+        display: none;
+    }
+    .mobileMenu {
+        
+        top: 4px;
+       
+        font-size: 22px;
+    }
+    .logo h2 {
+        font-size: 24px;
+    }
+    .featuresContent {
+        
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+    .featuresSection h1 {
+        
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .featuresSection {
+        padding: 22px 0;
+    }
+    
+    .aboutSection h1 {
+        
+        font-size: 25px;
+        margin-bottom: 11px;
+    }
+    .aboutSection {
+        padding: 15px 0;
+       
+    }
+    .aboutMenu ul li a {
+        
+        padding: 3px 12px;
+     
+    }
+    .aboutDetails p {
+        font-size: 17px;
+        
+        line-height: 25px;
+        
+    }
+    .traderSection h1 {
+        
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .traderSection {
+        
+        text-align: center;
+    }
+    .ClientItem {
+       
+        margin: 7px;
+       
+    }
+    .contactLeft h1 {
+        font-size: 30px;
+    }
+    .ContactSection {
+        padding: 14px 0;
+    }
+    .ClientSection {
+        padding: 18px 0;
+        
+    }
+    .ClientSection h1 {
+      
+        font-size: 32px;
+        margin-bottom: 0px;
+    }
+}
+
+
+@media (max-width:576px){
+    .mobileMenu {
+        display: block;
+        position: absolute;
+        top: 4px;
+        right: 20px;
+        font-size: 20px;
+    }
+    .logo h2 {
+        font-size: 26px;
+    }
+    nav{
+        top: 40px;
+    }
+    .featuresContent {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .aboutContent {
+        
+        text-align: center;
+        display: inline-block;
+    }
+    .aboutMenu {
+        width: 100%;
+    }
+    .aboutDetails {
+        width: 100%;
+    }
+    .aboutMenu ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+    .traderContent {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+    .ClientContent {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .ContactContent {
+        
+        text-align: center;
+        width: 100%;
+    }
+    .contactLeft p {
+        
+        width: 100%;
+        
+        margin-bottom: 10px;
+    }
+    .contactLeft h1 {
+        font-size: 25px;
+    }
+}
+@media (max-width:440px){
+    .bannerLeft h1 {
+        font-size: 28px;
+        line-height: 34px;
+        margin: 4px 0;
+    }
+}
